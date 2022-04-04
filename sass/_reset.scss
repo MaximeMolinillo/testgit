@@ -1,0 +1,36 @@
+@use "variables" as v;
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+
+   // font-family: "Nanum Myeongjo", serif;
+ //   text-shadow: 0.3rem 0.3rem 0.3rem v.$blue-banner;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    background-color: v.$back-blue;
+    text-shadow: 0.3rem 0.3rem 0.3rem v.$blue-banner;
+   //width: 100%;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+img {
+    width: 100%;
+}
